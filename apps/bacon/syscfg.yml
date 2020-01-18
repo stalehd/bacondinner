@@ -1,0 +1,5 @@
+syscfg.vals:
+    LOG_LEVEL: 0
+    # Enable the shell task.
+    SHELL_TASK: 1
+    SHELL_PROMPT_MODULE: 1
