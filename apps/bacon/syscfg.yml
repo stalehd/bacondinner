@@ -1,5 +1,13 @@
 syscfg.vals:
-    LOG_LEVEL: 0
+    # These might not be needed.
+    LOG_LEVEL: 3
     # Enable the shell task.
     SHELL_TASK: 1
     SHELL_PROMPT_MODULE: 1
+    BLE_LL_PRIO: 1
+    BLE_ROLE_BROADCASTER: 1
+    BLE_ROLE_OBSERVER: 0
+    BLE_ROLE_CENTRAL: 0
+    BLE_ROLE_PERIPHERAL: 0
+    BLE_XTAL_SETTLE_TIME: 0
+    TIMER_1: 1
